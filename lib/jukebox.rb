@@ -10,7 +10,7 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-def songs_titles(songs)
+def song_titles(songs)
   songs.collect do  
     |song|
     song.split(" - ")[1]
