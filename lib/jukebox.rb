@@ -48,6 +48,7 @@ end
 def run(songs)
   while true do
     help()
+    puts "Please enter a command:"
     choice = gets.chomp
     case choice
     when "help"
