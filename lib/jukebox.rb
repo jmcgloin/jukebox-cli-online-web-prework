@@ -45,7 +45,11 @@ def exit_jukebox()
   puts("Goodbye")
 end
 
-
+def  run(songs)
+  help()
+  choice = gets.chomp
+  
+end
 
 
 
