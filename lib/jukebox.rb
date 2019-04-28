@@ -60,6 +60,9 @@ def  run(songs)
       exit_jukebox()
       break
     else
+      "Invalid input, please try again"
+    end
+  end
 end
 
 
