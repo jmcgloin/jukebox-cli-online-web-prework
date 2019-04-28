@@ -46,11 +46,20 @@ def exit_jukebox()
 end
 
 def  run(songs)
-  help()
-  choice = gets.chomp
-  case choice
-  when "help"
-    
+  while true do
+    help()
+    choice = gets.chomp
+    case choice
+    when "help"
+      help()
+    when "list"
+      list(songs)
+    when "play"
+      play(songs)
+    when "exit"
+      exit_jukebox()
+      break
+    else
 end
 
 
