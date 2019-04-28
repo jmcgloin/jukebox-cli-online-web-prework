@@ -48,6 +48,7 @@ end
 def  run(songs)
   help()
   choice = gets.chomp
+  case choice
   
 end
 
