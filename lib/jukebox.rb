@@ -49,7 +49,7 @@ def  run(songs)
   help()
   choice = gets.chomp
   case choice
-  
+  when "help"
 end
 
 
