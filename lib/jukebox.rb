@@ -15,6 +15,7 @@ def song_titles(songs)
     |song|
     song.split(" - ")[1]
   end
+  puts songs
 end
 
 def help()
