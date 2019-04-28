@@ -38,7 +38,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.chomp
   choice = choice >= "1" && choice <= "9" ? songs[choice.to_i - 1] : choice
-  puts songs.include?( ? "Playing " << choice : "Invalid input, please try again"
+  puts songs.include?(choice) ? "Playing " << choice : "Invalid input, please try again"
 end
 
 
