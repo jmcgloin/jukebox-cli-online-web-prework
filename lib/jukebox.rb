@@ -41,6 +41,10 @@ def play(songs)
   puts songs.include?(choice) ? "Playing " << choice : "Invalid input, please try again"
 end
 
+def exit_jukebox()
+  puts("Goodbye")
+end
+
 
 
 
