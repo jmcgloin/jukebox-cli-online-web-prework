@@ -15,7 +15,6 @@ def song_titles(songs)
   songs.collect do  
     |song|
     song.split(" - ")[1]
-    binding.pry
   end
 end
 
@@ -38,11 +37,8 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.chomp
-  
+  puts choice == song_titles(songs) ? "Playing " << choice : "Invalid input, please try again"
 end
-
-song_titles(songs)
-
 
 
 
