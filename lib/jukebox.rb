@@ -1,3 +1,4 @@
+require 'pry'
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -14,8 +15,8 @@ def song_titles(songs)
   songs.collect do  
     |song|
     song.split(" - ")[1]
+    binding.pry
   end
-  puts songs
 end
 
 def help()
