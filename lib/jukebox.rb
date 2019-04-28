@@ -10,6 +10,13 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+def songs_titles(songs)
+  songs.collect do  
+    |song|
+    song.split(" - ")[1]
+  end
+end
+
 def help()
   puts "I accept the following commands:"
   puts "- help : displays this help"
@@ -29,9 +36,10 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.chomp
+  
 end
 
-
+song_titles(songs)
 
 
 
