@@ -25,3 +25,20 @@ def list(songs)
     puts num.to_s << ". " << song
   end
 end
+
+def play(songs)
+  puts "Please enter a song name or number:"
+  choice = gets.chomp
+end
+
+
+
+
+
+
+
+
+
+
+
+
